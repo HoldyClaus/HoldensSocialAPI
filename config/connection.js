@@ -1,7 +1,7 @@
 const { connect, connection } = require('mongoose');
 require('dotenv').config();
 
-connect(`mongodb+srv://Holden0212:goofyboy41632@cluster0.yyz89kv.mongodb.net/holdenssocialapi`, {
+connect(`mongodb+srv://Holden0212:${process.env.MongoURI}.mongodb.net/holdenssocialapi`, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
