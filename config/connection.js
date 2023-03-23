@@ -7,3 +7,4 @@ connect(`mongodb+srv://Holden0212:${process.env.MongoURI}.mongodb.net/holdenssoc
 });
 
 module.exports = connection;
+
